@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+.bg-image {
+  background: url(../images/hero_img.png);
+  height: 650px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -120px;
+}
+/* header.active{
+    background-color: #808080 !important;
+} */
+.headerflex {
+  margin-right: 130px;
+}
+header {
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 3 !important;
+  background: url(../images/Hero_img1.png);
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  
+  
+}
+.nav-link {
+  color: #fa5432 !important;
+  font-weight: 500 !important;
+}
+.navbar .sticky-top {
+  background-color: white;
+}
+.nav-link:hover {
+  font-weight: 600 !important;
+}
+#navbtn {
+  background-color: #fa5432;
+}
+#navbtn:hover,
+.herocontent .btn:hover {
+  background-color: #f96c45;
+}
+.navbar .ms-5 {
+  margin-left: 270px !important;
+}
+.aboutuscontent {
+  color: #867d76;
+}
+#abtus .img1 {
+  margin-top: 150px !important;
+}
+#about_us_heading,
+#abtus span,
+#menu h2,
+#testimonial .testimonialheading {
+  color: #fa5e2e;
+}
+.herocontent h2 {
+  font-size: 58px !important;
+  padding-top: 160px !important;
+}
+.herocontent .w-25 {
+  width: 35% !important;
+}
+.herocontent .btn {
+  background-color: #fa5432;
+  font-size: 12px;
+}
+.herocontent .shadow {
+  box-shadow: 6px 6px #808080 !important;
+}
+#menu p {
+  color: #f73f19;
+}
+.freebg {
+  background-image: url(../images/free.png);
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.freebg .w-50 {
+  width: 40% !important;
+}
+.freebg .btn:hover {
+  color: #f73f19;
+}
+#book table,
+#testimonial,
+#abtus,
+#free,
+#top,
+#menu,
+#footer,
+#copywrite {
+  font-family: "Poppins", sans-serif !important;
+}
+.reservationheading,
+.left p,
+#footer,
+#copywrite,
+.herocontent {
+  color: #fa5432;
+}
+.reservation .btn {
+  background-color: #fa5432;
+  border-color: #fa5432;
+}
+.reservation .btn:hover {
+  background-color: #f44320;
+}
+#testimonial .w-50 {
+  width: 35% !important;
+}
+#testimonial .fs-6 {
+  font-size: 15px !important;
+}
+#testimonial .border {
+  border-radius: 50px 0px;
+  border-color: #e05d21 !important;
+}
+#testimonial .bottom-100 {
+  bottom: 190px !important;
+  left: 591px !important;
+}
+#testimonial .review {
+  padding-top: 60px !important;
+}
+#footer {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 1%,
+    rgba(249, 203, 162, 1) 100%
+  );
+}
+#footer .btn {
+  border-color: #f73f19;
+  background-color: #f73f19;
+}
+#footer input {
+  border-color: #f73f19;
+  font-size: 14px;
+  color: #f73f19 !important;
+}
+.footercontent .btn:hover {
+  background-color: #fa502e !important;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 300px) {
+}
+@media screen and (max-width: 500px) {
+  .bg-image {
+    width: 100% !important;
+    /* background-position: right center; */
+    background-size: contain;
+    margin-top: -19px;
+    height: 300px;
+  }
+  #abtus .img1 {
+    margin-top: -3px !important;
+  }
+  header {
+    background-position: center;
+  }
+  .headerflex {
+    margin-right: 75px;
+  }
+  .nav-link {
+    font-size: 9px !important;
+  }
+  .navbar .btn {
+    font-size: 10px;
+  }
+  .herocontent h2 {
+    margin-top: 0px !important;
+    font-size: 15px !important;
+    padding-top: 30px !important;
+  }
+  .herocontent p {
+    font-size: 7px !important;
+    width: 50%;
+    margin-top: 0px !important;
+  }
+  .herocontent .btn{
+    margin-top: 0PX !important;
+    font-size: 7px;
+    padding: 2px;
+  }
+  #abtus .w-25 {
+    width: 80% !important;
+  }
+  #testimonial .bottom-100 {
+    left: 150px !important;
+    bottom: 210px !important;
+  }
+  .calldiv .d-flex,
+  .maildiv .d-flex {
+    justify-content: center;
+  }
+  .freebg .w-50 {
+    width: 89% !important;
+  }
+  #menu .row {
+    margin: 0px auto;
+  }
+  .headerflex {
+    width: 58% !important;
+  }
+}
+
+/* ipad responsive */
+@media screen and (min-width: 700px) and (max-width: 850px) {
+  /* header {
+    background-position: top; 
+  } */
+  #testimonial .img-thumbnail {
+    left: 290px !important;
+  }
+  .bg-image {
+    margin-top: -100px !important;
+    background-size: contain;
+    height: 470px ;
+  }
+  .aboutuscontent {
+    width: 10% !important;
+    font-size: 10px !important;
+  }
+  .herocontent h2 {
+    padding-top: 81px !important;
+  }
+  #abtus .img1 {
+    margin-top: 130px !important;
+  }
+  #abtus .w-25 {
+    width: 25% !important;
+    font-size: 10px !important;
+  }
+  .freebg .w-50 {
+    width: 61% !important;
+  }
+}
